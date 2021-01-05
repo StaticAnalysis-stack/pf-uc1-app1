@@ -12,6 +12,6 @@ public class SimpleTest {
             SimpleTest ob = new SimpleTest();
 	    GetTestCaseAnnotations anno=new GetTestCaseAnnotations();
             anno.getValue(ob, "test");
-            //fail("Failing for experimentation");
+            fail("Failing for experimentation");
         }
 }

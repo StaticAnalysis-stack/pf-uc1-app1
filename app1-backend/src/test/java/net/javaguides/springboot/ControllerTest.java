@@ -14,6 +14,6 @@ public class ControllerTest {
 	    ControllerTest ob = new ControllerTest();
 	    GetTestCaseAnnotations anno=new GetTestCaseAnnotations();
         anno.getValue(ob, "test");
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	  }
 }

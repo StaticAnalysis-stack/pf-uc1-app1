@@ -21,7 +21,7 @@ import net.javaguides.springboot.model.Employee;
 import net.javaguides.springboot.repository.EmployeeRepository;
 
 
-@CrossOrigin(origins = "http://pf-uc1-Public-LB-dev-2014276103.ap-south-1.elb.amazonaws.com")
+@CrossOrigin(origins = "http://13.233.122.155")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {

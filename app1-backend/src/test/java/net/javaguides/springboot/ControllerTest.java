@@ -14,10 +14,7 @@ public class ControllerTest {
 	    ControllerTest ob = new ControllerTest();
 	    GetTestCaseAnnotations anno=new GetTestCaseAnnotations();
         anno.getValue(ob, "test");
-<<<<<<< HEAD
-		//fail("Controller access fails");
-=======
-		//fail("Controller rendering fails");
->>>>>>> 93af665f9eba572f15d631a84623189ebc6c3e36
+
+		fail("Controller access fails");
 	  }
 }
